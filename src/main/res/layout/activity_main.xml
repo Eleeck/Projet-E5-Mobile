@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="728dp"
+        android:background="#B5A3CF"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="80px"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="10px"
+            android:text="Constat Rapide"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="50dp" />
+
+        <LinearLayout
+            android:layout_width="290dp"
+            android:layout_height="270dp"
+            android:layout_marginStart="100px"
+            android:layout_marginTop="50dp"
+            android:background="@color/black"
+            android:orientation="vertical"
+            android:padding="20px">
+
+            <Button
+                android:id="@+id/connexion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220px"
+                android:layout_marginTop="50dp"
+                android:text="Connexion" />
+
+            <Button
+                android:id="@+id/inscrip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220px"
+                android:layout_marginTop="30dp"
+                android:text="Inscription" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
